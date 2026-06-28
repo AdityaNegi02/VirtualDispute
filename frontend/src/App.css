@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700;800&display=swap');
+
+:root {
+  --bg: #f5f1e8; /* Cream background from screenshot */
+  --text: #1a1a1a;
+  --text-h: #000000;
+  --accent: #d64a2e; /* Red accent from screenshot */
+  --border: #e2ddd3;
+  --card-bg: #fcfbf8;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+html.dark {
+  --bg: #0f0f0f;
+  --text: #a0a0a0;
+  --text-h: #ffffff;
+  --accent: #ff4d2e;
+  --border: #1f1f1f;
+  --card-bg: #141414;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg);
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 20px, rgba(0,0,0,0.02) 20px, rgba(0,0,0,0.02) 21px);
+  color: var(--text);
+  transition: all 0.3s ease;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* Typography from Screenshot */
+.font-display {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 0.9;
+  text-transform: none;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-weight: 700;
+}
+
+h1 { font-size: 84px; margin-bottom: 20px; color: var(--text-h); }
+h2 { font-size: 32px; margin-bottom: 24px; color: var(--text-h); font-weight: 800; letter-spacing: -0.02em; }
+h3 { font-size: 18px; margin-bottom: 16px; color: var(--text-h); font-weight: 800; }
+
+/* Navigation Top Bar */
+.nav-bar {
+  height: 70px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 0 40px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+}
+
+.nav-link {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 600;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.nav-link:hover { opacity: 1; color: var(--accent); }
+
+/* Components */
+.card-minimal {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  padding: 40px;
+  border-radius: 0;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.input-minimal {
+  width: 100%;
+  padding: 16px 0;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  background: transparent;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: var(--text-h);
+  outline: none;
+  margin-bottom: 32px;
+  transition: border-color 0.3s;
+}
+
+.input-minimal:focus {
+  border-bottom-color: var(--accent);
+}
+
+.btn-black {
+  background: var(--text-h);
+  color: var(--bg);
+  padding: 16px 32px;
+  border: none;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn-black:hover {
+  background: var(--accent);
+  transform: translateY(-2px);
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  background: var(--accent);
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.label-small {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Animations */
+@keyframes reveal {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-reveal {
+  animation: reveal 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Dashboard Specific */
+.case-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 60px;
+  padding: 60px 0;
+  border-top: 1px solid var(--border);
+}
+
+.case-meta {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.ai-box {
+  background: var(--text-h);
+  color: var(--bg);
+  padding: 40px;
+  margin-top: 32px;
+}
+
+.ai-box p { line-height: 1.8; font-size: 15px; opacity: 0.9; }
+
+.footer-section {
+  padding: 100px 0;
+  border-top: 1px solid var(--border);
+  margin-top: 100px;
+}

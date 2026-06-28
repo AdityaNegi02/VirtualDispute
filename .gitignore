@@ -1,0 +1,32 @@
+FUTURE_FEATURES.md
+TECH_BREAKDOWN.md
+# Dependencies
+node_modules/
+
+# Environment variables (secrets)
+.env
+.env.local
+.env.development
+.env.production
+
+# Uploaded files
+uploads/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build folders
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
