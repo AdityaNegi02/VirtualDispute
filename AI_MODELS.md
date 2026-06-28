@@ -1,7 +1,5 @@
 # Virtual Dispute System - AI & Models Guide
 
-This document summarizes the AI models used in the project for quick reference during interviews.
-
 ## 1. Large Language Model (The Brain)
 - **Model Name**: `Llama-3.2-1B-Instruct-GGUF`
 - **Source**: Hugging Face (bartowski/Llama-3.2-1B-Instruct-GGUF)
