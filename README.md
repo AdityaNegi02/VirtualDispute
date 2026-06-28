@@ -9,6 +9,27 @@ A decentralized-style virtual dispute resolution system using MERN, Python (RAG)
 - **engine/**: Python FastAPI server for RAG (Retrieval Augmented Generation).
 - **core/**: llama.cpp engine for local LLM inference.
 
+## Screenshots of the Project
+-Login/Authorization Page(DARK/LIGHT)
+<img width="1847" height="905" alt="Screenshot 2026-06-18 221936" src="https://github.com/user-attachments/assets/74550536-0fa3-473b-8856-bea9e5223bc4" />
+<img width="1847" height="908" alt="Screenshot 2026-06-18 221925" src="https://github.com/user-attachments/assets/ad23576b-f359-434a-8777-36864eca325a" />
+
+-User Dashboard Page(DARK/LIGHT)
+<img width="1842" height="906" alt="Screenshot 2026-06-18 221953" src="https://github.com/user-attachments/assets/0c66c49c-5272-4e43-b532-dba08261a4f4" />
+<img width="1841" height="907" alt="Screenshot 2026-06-18 222003" src="https://github.com/user-attachments/assets/e8b32f9f-bc54-4f20-b333-9ba2a99c0fea" />
+
+-Rules
+<img width="1287" height="812" alt="Screenshot 2026-06-18 223146" src="https://github.com/user-attachments/assets/8fe29cac-30f0-4a9d-8337-eac475b0d397" />
+
+-Filing online Complaint/Case
+<img width="1847" height="907" alt="Screenshot 2026-06-19 003203" src="https://github.com/user-attachments/assets/0f0355b7-7e44-40fb-b77c-babe3b0e0250" />
+
+-Receiving the Complaint/Case
+<img width="1847" height="906" alt="Screenshot 2026-06-19 003256" src="https://github.com/user-attachments/assets/b6201903-f581-4928-9a4b-8af97dcc9fc1" />
+
+-Final Conclusion of the Complaint/Case
+<img width="1842" height="888" alt="Screenshot 2026-06-19 003320" src="https://github.com/user-attachments/assets/e97df086-128e-43bc-8952-43a537d86854" />
+
 ## Setup Instructions
 
 ### 1. llama.cpp (The Brain)
