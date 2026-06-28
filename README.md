@@ -24,6 +24,8 @@ A decentralized-style virtual dispute resolution system using MERN, Python (RAG)
 
 -Filing online Complaint/Case
 <img width="1847" height="907" alt="Screenshot 2026-06-19 003203" src="https://github.com/user-attachments/assets/0f0355b7-7e44-40fb-b77c-babe3b0e0250" />
+<img width="1847" height="905" alt="Screenshot 2026-06-18 221936" src="https://github.com/user-attachments/assets/7bc30c2f-f0f5-48f6-b4ee-fa2561ac49d0" />
+
 
 -Receiving the Complaint/Case
 <img width="1847" height="906" alt="Screenshot 2026-06-19 003256" src="https://github.com/user-attachments/assets/b6201903-f581-4928-9a4b-8af97dcc9fc1" />
