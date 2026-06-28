@@ -11,8 +11,9 @@ A decentralized-style virtual dispute resolution system using MERN, Python (RAG)
 
 ## Screenshots of the Project
 -Login/Authorization Page(DARK/LIGHT)
-<img width="1847" height="905" alt="Screenshot 2026-06-18 221936" src="https://github.com/user-attachments/assets/74550536-0fa3-473b-8856-bea9e5223bc4" />
-<img width="1847" height="908" alt="Screenshot 2026-06-18 221925" src="https://github.com/user-attachments/assets/ad23576b-f359-434a-8777-36864eca325a" />
+<img width="1845" height="906" alt="Screenshot 2026-06-28 212803" src="https://github.com/user-attachments/assets/5c5e0f67-3109-497c-bf3a-160236d72ae6" />
+<img width="1838" height="897" alt="Screenshot 2026-06-28 212821" src="https://github.com/user-attachments/assets/90472333-281d-4a9e-b5c4-9b91f9462dcf" />
+
 
 -User Dashboard Page(DARK/LIGHT)
 <img width="1842" height="906" alt="Screenshot 2026-06-18 221953" src="https://github.com/user-attachments/assets/0c66c49c-5272-4e43-b532-dba08261a4f4" />
